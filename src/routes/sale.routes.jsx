@@ -5,7 +5,7 @@ import { Product } from '../pages/Product';
 import { NotFound } from '../pages/NotFound';
 import { SalesReport } from '../pages/SalesReport';
 
-export function CustomerRoutes() {
+export function SaleRoutes() {
   return (
     <Routes>
       <Route path="/" element={< Home />} />
